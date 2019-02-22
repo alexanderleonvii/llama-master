@@ -18,8 +18,8 @@ main {
 nav {
     grid-column: 1;
     display: grid;
-    grid-template-rows: 100px auto;
     grid-row-gap: 10%;
+    grid-template-rows: 100px auto;
     padding: 20px;
     background-color: #000909;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -28,6 +28,7 @@ nav {
 
 header {
     display: flex;
+    margin: 16px;
     flex-wrap: wrap;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: -0.3rem;
