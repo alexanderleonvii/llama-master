@@ -128,3 +128,22 @@ h2{
   vertical-align: center;
   color: white;
 }
+
+div.btn {
+  
+  position: relative;
+  top: -180px;
+}
+
+div.btn img{
+  border: rgb(255, 196, 0) solid 5px;
+  border-radius: 10px;
+  width: 200px;
+  height: 100px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+div.btn img:hover{
+  filter: blur(1px);
+  transform: scale(1.05)
+}
