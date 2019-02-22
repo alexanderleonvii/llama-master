@@ -112,7 +112,7 @@ h2{
   margin-bottom: 200px;
   align-content: center;
   display: inline-block;
-  transition: width 0.5s;
+  transition:  0.5s;
 }
 
 #main-list{
